@@ -1,0 +1,27 @@
+.list-item{
+    @apply flex justify-between items-center gap-3 p-2 border border-gray-300 rounded;
+}
+.chexbox{
+    @apply w-5 h-5;
+}
+.chexbox_custom{
+    @apply w-5 h-5;
+}
+.TASK_INBOX{
+    @apply bg-gray-100;
+}
+.TASK_PINNED{
+    @apply bg-yellow-100;
+}
+.TASK_ARCHIVED{
+    @apply bg-green-100;
+}
+.pin{
+    @apply w-5 h-5;
+}
+.icon_star{
+    @apply w-5 h-5;
+}
+.title{
+    @apply w-full;
+}

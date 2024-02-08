@@ -1,0 +1,21 @@
+.checkbox{
+    background: rgb(206, 206, 206);
+    padding: 10px;
+    border-radius: 10px;
+    color: #000;
+}
+.checkbox_type_primary{
+    background: rgb(212, 226, 255);
+}
+.checkbox_type_secondary{
+    background: rgb(172, 172, 172);
+}
+.checkbox_theme_dark{
+    color: #fff;
+}
+.checkbox_theme_dark.checkbox_type_primary{
+    background: rgb(73,134, 255);
+}
+.checkbox_theme_dark.checkbox_type_secondary{
+    background: rgb(73, 73, 73);
+}
